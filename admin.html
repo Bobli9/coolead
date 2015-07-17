@@ -1,0 +1,80 @@
+﻿<!--<div ng-controller="adminController">-->
+    <!-- START Left Column -->
+    <div id="left-column" class="">
+        <!-- NOTE TO READER: Accepts the following class(es) "menu-icon-only", "fixed" class -->
+        <div id="mainnav">
+            <ul class="mainnav">
+                <!-- NOTE TO READER: Accepts the following class(es) "animate" class -->
+                <li class="menu-item-top">
+                    <a class="top">
+                        <span class="main-menu-icon">
+                            <span aria-hidden="true" class="icon icon-grid-big"></span>
+                        </span>
+                        <span class="main-menu-text">知识库管理</span>
+                    </a>
+                    <ul>
+                        <li><a>设备类型</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-top">
+                    <a class="top">
+                        <span class="main-menu-icon">
+                            <span aria-hidden="true" class="icon icon-grid-big"></span>
+                        </span>
+                        <span class="main-menu-text">代办事宜</span>
+                    </a>
+                    <ul>
+                        <li><a>代办任务</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-top">
+                    <a class="top">
+                        <span class="main-menu-icon">
+                            <span aria-hidden="true" class="icon icon-grid-big"></span>
+                        </span>
+                        <span class="main-menu-text">基本信息</span>
+                    </a>
+                    <ul>
+                        <li><a>采集器信息</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-top selected">
+                    <a class="top">
+                        <span class="main-menu-icon">
+                            <span aria-hidden="true" class="icon icon-grid-big"></span>
+                        </span>
+                        <span class="main-menu-text">权限管理</span>
+                    </a>
+                    <ul>
+                        <li><a href="#/index/admin/menu">菜单管理</a></li>
+                        <li><a href="#/index/admin/roleManage">角色管理</a></li>
+                       
+                        <li><a href="#/index/admin/empower">授权管理</a></li>
+                        <li><a href="#/index/admin/organization">组织机构用户</a></li>
+                    </ul>
+                </li>
+                <!--<li class="menu-item-top">
+                    <a class="top">
+                        <span class="main-menu-icon">
+                            <span aria-hidden="true" class="icon icon-dollar"></span>
+                        </span>
+                        <span class="main-menu-text">任务派发</span>
+                    </a>
+                    <ul>
+                        <li><a href="#/index/yesterday">昨日能耗</a></li>
+                        <li><a href="#">夜间能耗</a></li>
+                        <li><a href="#">实时采集</a></li>
+                        <li><a href="#" class="branchAnalysis">支路分析1</a></li>
+                        <li><a href="#">当日能耗</a></li>
+                    </ul>
+                </li>-->
+
+            </ul>
+        </div>
+    </div>
+    <!-- END Left Column -->
+    <!-- START Right Column -->
+    <div ui-view="adminMain" id="right-column"></div>
+    <!-- END Right Column -->
+<!--</div>-->
+<script type="text/javascript" src="scripts/vendor/required/menu.js"></script>
